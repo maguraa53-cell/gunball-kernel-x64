@@ -34,15 +34,3 @@ Gunball Kernel is a lightweight 64-bit "all-in-one" monolithic-modular kernel. I
     * `exit`: Halt the system.
 
 ---
-
-## 🛠️ How to Expand
-Gunball was built to grow. To add a new command or module, simply register your function in the kernel's main loop:
-
-```c
-void my_new_feature() {
-    g_print("This is a community contribution!\n");
-}
-
-// Inside kernel_main:
-add_cmd("myfeat", my_new_feature);
-
