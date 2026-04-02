@@ -11,3 +11,5 @@ v1.0: 125 lines (Basic Boot)
 v2.0: 1,000 lines (Multitasking)
 v2.9/3.0: 3,000+ lines (Secure Workstation)
 Gunball OS: Be what you want to be.
+![Interface 1](Screenshot_20260401-223744~2.png)
+![Interface 2](Screenshot_20260401-223811~2.png)
