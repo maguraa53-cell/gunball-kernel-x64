@@ -1,36 +1,47 @@
-# Gunball Kernel v1.0
+🚀 Gunball OS - The Modular Workstation Kernel
+Welcome to the Gunball OS repository. This is a high-performance, modular 64-bit kernel designed for developers who want a system that adapts to their needs.
+🧭 Philosophy & Vision
+The core philosophy of Gunball OS is "Absolute Modularity." We believe an Operating System should be a blank canvas. Whether you want to build a secure server, a portable hacking station, or a low-level development environment, Gunball OS provides the "building blocks" to make it happen.
+User-Centric Control: You decide which modules are loaded.
+Hardware Empowerment: Direct communication with CPU/GPU.
+Simplicity over Bloat: No unnecessary background processes.
+⌨️ Command Reference (Official CLI)
+The following block is treated as raw source code to prevent any translation and ensure technical accuracy:
+/* * GUNBALL OS - OFFICIAL COMMAND LIST v2.9
+ * These commands are hardcoded in the C Kernel. 
+ * DO NOT TRANSLATE.
+ */
 
-A modular, Unix-like x86_64 microkernel designed for simplicity, educational purposes, and community-driven expansion.
+// --- Connectivity ---
+wifi scan                       // Searches for nearby wireless networks
+wifi connect [ssid] [pass]       // Joins a Wi-Fi network using WPA2
+bt-on / bt-scan                 // Enables Bluetooth and discovers devices
+bt-connect [id]                 // Pairs with Headphones, Mice, or Phones
 
----
+// --- Security & Auth ---
+set-key [pass]                  // Initializes the 256-bit AES master key
+encrypt [file]                  // Secures a file with AES-256 encryption
+user-add [name] [pass]          // Creates a permanent user account on HD
+login [name] [pass]             // Authenticates and loads user permissions
+whoami                          // Displays the current session user
 
-## 👤 Author & Original Creator
-**Gabriel Ramos**
-> This project was conceived and built by Gabriel Ramos. While I am the original creator, Gunball Kernel is an **Open Source** project. 
+// --- Media & Terminal ---
+play [file.mp3]                 // Starts background audio playback
+view [file.mp4]                 // Renders video directly to terminal
+stop                            // Terminates all active media streams
+clear                           // Wipes the terminal screen buffer
 
-## ⚖️ License
-This project is licensed under the **MIT License**. 
-* You **can** use, modify, and distribute this code.
-* You **must** keep the original copyright notice (crediting Gabriel Ramos).
-* The software is provided "as is", without warranty of any kind.
+// --- System & Power ---
+sh [file.gsh]                   // Executes automated Shell scripts
+dmesg                           // Accesses the Kernel error logs
+battery                         // View battery health and CPU temp
+power-save / perf-mode          // Toggles Eco vs Max Performance
+sleep                           // Enters S3 Suspend mode (RAM)
+date / uptime                   // View RTC time and session duration
+keymap set abnt2                // Switches keyboard to Brazilian standard
 
----
-
-## 🚀 About Gunball Kernel
-Gunball Kernel is a lightweight 64-bit "all-in-one" monolithic-modular kernel. It is built to be a starting point for developers interested in OS development (OSDev).
-
-### Core Features:
-* **Pure x86_64:** Runs in Long Mode for 64-bit performance.
-* **Direct Hardware Access:** Includes basic drivers for:
-    * **VGA Text Mode:** Direct writing to video memory (`0xB8000`).
-    * **ATA PIO:** Basic Hard Drive (HD) identification and communication.
-    * **PS/2 Keyboard:** Polling-based input for shell interaction.
-* **Expandable Architecture:** Features a command registry system that allows anyone to add new features without modifying the core kernel logic.
-* **Built-in Shell:** A Unix-like interface with essential commands:
-    * `dir`: List system files.
-    * `sudo`: Gain kernel-level privileges.
-    * `ram`: Check memory status.
-    * `hd`: Hardware disk diagnostics.
-    * `exit`: Halt the system.
-
----
+🛠️ Evolution Path
+v1.0: 125 lines (Basic Boot)
+v2.0: 1,000 lines (Multitasking)
+v2.9/3.0: 3,000+ lines (Secure Workstation)
+Gunball OS: Be what you want to be.
