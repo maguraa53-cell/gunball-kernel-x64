@@ -33,3 +33,12 @@ In computer engineering, a tortoise is the perfect symbol for a secure, low-leve
 **Gunball OS: Secure, Modular, and ready for you to be whatever you want to be.**
 
 ![Lind the Mascot](1775095037170.png)
+
+
+🛠️ Open Architecture: Modular Pages
+Gunball OS is built on a Page-Based Architecture. This means that every function, driver, and command is isolated into its own dedicated "Page" of code.
+Why this matters:
+Separation of Concerns: Commands like wifi or encrypt are not tangled together. They live in separate files/pages.
+Easy to Modify: If you want to change how a specific command works, you only need to edit its specific page without breaking the rest of the Kernel.
+Add Your Own: Anyone can create a new page, write a function in C, and register a new command. The system is a blank canvas designed to be expanded by the community.
+The code is yours. Feel free to fork, modify, and add your own modules to the Gunball ecosystem.
