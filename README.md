@@ -13,3 +13,23 @@ v2.9/3.0: 3,000+ lines (Secure Workstation)
 Gunball OS: Be what you want to be.
 ![Interface 1](Screenshot_20260401-223744~2.png)
 ![Interface 2](Screenshot_20260401-223811~2.png)
+
+---
+
+## 🐢 Meet Lind, the Gunball OS Mascot
+
+<p align="center">
+  <img src="1775095037170.png" width="300" title="Lind the Mascot">
+</p>
+
+This is **Lind**. In Gunball OS, Lind represents the core values of our Kernel.
+
+In computer engineering, a tortoise is the perfect symbol for a secure, low-level OS:
+
+* **The Shell (Modular):** A protective layer that provides a blank canvas, allowing developers to load and unload modular building blocks (Pages/Modules) without compromising the system's core.
+* **The Spirit (Secure):** A tortoise is resilient and long-lived. It protects your hardware and data from external threats, just like our integrated 256-bit AES encryption.
+* **The Power (Terminal):** Lind is a digital-first creature, embodying our terminal-centric workstation design. It handles the raw data of the 64-bit Kernel without bloat.
+
+**Gunball OS: Secure, Modular, and ready for you to be whatever you want to be.**
+
+![Lind the Mascot](1775095037170.png)
